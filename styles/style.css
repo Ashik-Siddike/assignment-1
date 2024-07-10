@@ -4,13 +4,14 @@
     padding: 0;
 }
   .banner-items{
-    height: 652px;
-    left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px;
+     height: 652px;
+   
 
-    background: url(../assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 margin: 0 auto;
 }
 #coder-logo{
@@ -42,7 +43,6 @@ margin: 0 auto;
 }
 .contact-btn{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px 21px 24px;
@@ -119,10 +119,8 @@ opacity: 0.7;
     height: 336px;
     border-radius: 16px;
     margin: 0 auto;
-    border: 2px solid rgb(11, 255, 112) ;
+    /* border: 2px solid rgb(11, 255, 112) ; */
     align-items: center;
-
-
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .right-img-container{
@@ -133,7 +131,6 @@ display: flex;
 margin: 0 auto;
 margin-top: 48px;
 flex-direction: row-reverse;
-
 }
 .left-img-container{
         /* Frame 10 */
@@ -141,10 +138,7 @@ flex-direction: row-reverse;
         height: 240px;
         display: flex;
         margin: 0 auto;
-        margin-top: 48px;
-        
-        
-       
+        margin-top: 48px;       
 }
 .common-btn{
     color: rgb(13, 19, 33);
@@ -165,4 +159,134 @@ margin: 20px 0px 10.5px 0px;
 }
 .Inspiration p{
 margin: 24px 0px 48px 0px;
+}
+.my-target{
+    width: 1140px;
+height: 460px;
+justify-content: center;
+margin: 0 auto;
+border: 2px solid red;
+}
+.html{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+/* border: 2px solid red; */
+}
+.css{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+margin: 0px 24px;
+background: rgba(0, 76, 232, 0.05);
+/* border: 2px solid red; */
+}
+.javascriptt{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+/* border: 2px solid red; */
+}
+.cards{
+    display: flex;    
+}
+.js-inner-box, .css-inner-box, .html-inner-box{
+    width: 284px;
+    height: 219px;
+    justify-content: center;
+    margin: 40px;
+    /* border: 2px solid red; */
+
+
+}
+.cards h1{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+margin: 30px 0px 8px 0px;
+}
+.cards p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+opacity: 0.7;
+margin: 15px 0px;
+}
+.cards h3{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 35px;
+}
+.cards img{
+    width: 56px;
+height: 56px;
+}
+.support{
+    
+    width: 1140px;
+    height: 313px;
+border: 2px solid tomato;
+/* display: flex;
+flex-direction: row;
+justify-content: center; */
+margin: 0 auto;
+background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    border-radius: 16px;
+    margin-top:50px;
+
+
+}
+
+.support input{
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+justify-content: center;
+
+height: 57px;
+width: 547px;
+}
+.support button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px 17px 20px;
+}
+.support h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 64px;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 29px;
+}
+.frrom-items{
+display: flex;
+justify-content: center;
 }
