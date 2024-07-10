@@ -52,6 +52,9 @@ margin: 0 auto;
     border-radius: 8px;
     margin: 0 auto;
     margin-top: 32px;
+    text-decoration: none;
+    
+
     background: rgb(13, 19, 33);
     
 }
@@ -286,7 +289,32 @@ margin-top: 64px;
     margin-top: 16px;
     margin-bottom: 29px;
 }
-.frrom-items{
+.form-items{
 display: flex;
 justify-content: center;
+
+}
+footer{
+    width: 763px;
+height: 53px;
+border: 2px solid red;
+background-color: rgba(13, 19, 33, 0.03); ;
+border-radius: 8.48px;
+margin-top: 42.4px;
+}
+.footer-content{
+    display: flex;  
+    margin: 19.08px 79.5px; 
+}
+.comment{
+    justify-content: left;
+}
+.facebook{
+    margin-left: 278.78px;
+}
+.github{
+    margin-left: 12.72px;
+}
+.linkedin{
+    margin-left: 12.72px;
 }
