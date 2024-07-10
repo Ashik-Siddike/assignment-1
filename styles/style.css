@@ -287,6 +287,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     padding: 17px 20px 17px 20px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
+    margin-left: 16px;
 }
 .support h1{
     color: rgb(255, 255, 255);
